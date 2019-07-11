@@ -1,0 +1,212 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Acessar e Preencher o Contato da pagina da verity.",
+        "description": "",
+        "id": "testar-o-site-da-verity;acessar-e-preencher-o-contato-da-pagina-da-verity.;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7506079141,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu acessei a home page da Verity Group",
+            "match": {
+              "location": "VerityGroupsSteps.que_eu_acessei_a_home_page_da_Verity_Group()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 680026424,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu clicar na opção de menu “Contato”",
+            "match": {
+              "location": "VerityGroupsSteps.eu_clicar_na_opção_de_menu_Contato()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2776683398,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencher os campos Thiago Testes,Thiago silva,tionooah@gmail.com,973346931,Assunto e Mensagem",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thiago Testes",
+                  "offset": 20
+                },
+                {
+                  "val": "Thiago silva",
+                  "offset": 34
+                },
+                {
+                  "val": "tionooah@gmail.com",
+                  "offset": 47
+                },
+                {
+                  "val": "973346931",
+                  "offset": 66
+                }
+              ],
+              "location": "VerityGroupsSteps.preencher_os_campos_Empresa_Nome_Email_Telefone_Assunto_e_Mensagem(String,String,String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 136824422,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar no botão “Enviar”",
+            "match": {
+              "location": "VerityGroupsSteps.clicar_no_botão_Enviar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 22136105496,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o site irá registrar o envio apresentando uma mensagem de que a Enviar Sua mensagem foi enviado com sucesso! foi enviada com sucesso.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enviar Sua mensagem foi enviado com sucesso!",
+                  "offset": 64
+                }
+              ],
+              "location": "VerityGroupsSteps.o_site_irá_registrar_o_envio_apresentando_uma_mensagem_de_que_a_mensagem_foi_enviada_com_sucesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Verity"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Acessar e Preencher o Contato da pagina da verity.",
+        "description": "",
+        "id": "testar-o-site-da-verity;acessar-e-preencher-o-contato-da-pagina-da-verity.;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5313014789,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu acessei a home page da Verity Group",
+            "match": {
+              "location": "VerityGroupsSteps.que_eu_acessei_a_home_page_da_Verity_Group()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 666102319,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu clicar na opção de menu “Contato”",
+            "match": {
+              "location": "VerityGroupsSteps.eu_clicar_na_opção_de_menu_Contato()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2813771270,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencher os campos Testes integrados,Fernando fab,Fernandfab@gmail.com,973346931,Assunto e Mensagem",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testes integrados",
+                  "offset": 20
+                },
+                {
+                  "val": "Fernando fab",
+                  "offset": 38
+                },
+                {
+                  "val": "Fernandfab@gmail.com",
+                  "offset": 51
+                },
+                {
+                  "val": "973346931",
+                  "offset": 72
+                }
+              ],
+              "location": "VerityGroupsSteps.preencher_os_campos_Empresa_Nome_Email_Telefone_Assunto_e_Mensagem(String,String,String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 134942899,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar no botão “Enviar”",
+            "match": {
+              "location": "VerityGroupsSteps.clicar_no_botão_Enviar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "error_message": "utils.exceptions.ValidateException: chrome not reachable\n  (Session info: chrome\u003d75.0.3770.100)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027AUDITESTE0192\u0027, ip: \u0027192.168.100.21\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\AUDITE~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55452}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}\nSession ID: 961445833b49d1f14ba78190663ca971\n*** Element info: {Using\u003dxpath, value\u003d//*[text()[contains(.,\u0027Sua mensagem foi enviado com sucesso!\u0027)]]}\nsun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\nsun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\nsun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\njava.lang.reflect.Constructor.newInstance(Constructor.java:423)\norg.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\norg.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\norg.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\norg.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\norg.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\norg.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\norg.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\norg.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\norg.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)\norg.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:423)\norg.openqa.selenium.By$ByXPath.findElements(By.java:348)\norg.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)\norg.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)\norg.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)\norg.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)\norg.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)\norg.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\nutils.SeleniumUtils.waitWebElementVisible(SeleniumUtils.java:38)\nPagesVerity.PageContato.MensagemdeSucesso(PageContato.java:48)\nsteps.VerityGroupsSteps.o_site_irá_registrar_o_envio_apresentando_uma_mensagem_de_que_a_mensagem_foi_enviada_com_sucesso(VerityGroupsSteps.java:48)\nsun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nsun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\njava.lang.reflect.Method.invoke(Method.java:498)\ncucumber.runtime.Utils$1.call(Utils.java:26)\ncucumber.runtime.Timeout.timeout(Timeout.java:16)\ncucumber.runtime.Utils.invoke(Utils.java:20)\ncucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\ncucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\ncucumber.runner.TestStep.executeStep(TestStep.java:55)\ncucumber.runner.TestStep.run(TestStep.java:42)\ncucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\ncucumber.runner.TestCase.run(TestCase.java:47)\ncucumber.runner.Runner.runPickle(Runner.java:44)\ncucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\ncucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\ncucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\norg.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\norg.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\norg.junit.runners.ParentRunner.run(ParentRunner.java:363)\ncucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\ncucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\ncucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\norg.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\norg.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\norg.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\norg.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\norg.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\ncucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\norg.junit.runners.ParentRunner.run(ParentRunner.java:363)\norg.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\norg.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\norg.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\norg.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\norg.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\norg.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\n\r\n\tat utils.exceptions.ExceptionUtils.throwException(ExceptionUtils.java:19)\r\n\tat utils.SeleniumUtils.waitWebElementVisible(SeleniumUtils.java:40)\r\n\tat PagesVerity.PageContato.MensagemdeSucesso(PageContato.java:48)\r\n\tat steps.VerityGroupsSteps.o_site_irá_registrar_o_envio_apresentando_uma_mensagem_de_que_a_mensagem_foi_enviada_com_sucesso(VerityGroupsSteps.java:48)\r\n\tat ✽.o site irá registrar o envio apresentando uma mensagem de que a Enviar Sua mensagem foi enviado com sucesso! foi enviada com sucesso.(features/VerityGroup.feature:11)\r\n",
+              "duration": 17382655844,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "o site irá registrar o envio apresentando uma mensagem de que a Enviar Sua mensagem foi enviado com sucesso! foi enviada com sucesso.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enviar Sua mensagem foi enviado com sucesso!",
+                  "offset": 64
+                }
+              ],
+              "location": "VerityGroupsSteps.o_site_irá_registrar_o_envio_apresentando_uma_mensagem_de_que_a_mensagem_foi_enviada_com_sucesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Verity"
+          }
+        ]
+      }
+    ],
+    "name": "Testar o site da verity",
+    "description": "",
+    "id": "testar-o-site-da-verity",
+    "keyword": "Funcionalidade",
+    "uri": "features/VerityGroup.feature",
+    "tags": []
+  }
+]
